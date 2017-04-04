@@ -1,12 +1,14 @@
-﻿<Window x:Class="WpfPrismExample.MainWindow"
+﻿<Window x:Class="WpfPrismExample.Shell"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfPrismExample"
+        xmlns:p="http://prismlibrary.com/"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        p:ViewModelLocator.AutoWireViewModel="True"
+        Title="MainWindow" Height="600" Width="800">
     <Grid>
-        
+        <ContentControl p:RegionManager.RegionName="ContentRegion" />
     </Grid>
 </Window>

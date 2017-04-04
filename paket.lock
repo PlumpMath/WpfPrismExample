@@ -1,0 +1,10 @@
+NUGET
+  remote: https://www.nuget.org/api/v2
+    CommonServiceLocator (1.3)
+    EntityFramework (6.1.3)
+    Prism.Core (6.3)
+    Prism.Wpf (6.3)
+      CommonServiceLocator (>= 1.3) - framework: >= net45
+      Prism.Core (>= 6.3) - framework: >= net45
+    Unity (4.0.1)
+      CommonServiceLocator (>= 1.3)
